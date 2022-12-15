@@ -1,12 +1,16 @@
 #include "main.h"
 /**
- * mul - retuens the results of the parameters
- * @a: int type number
- * @b: int type number
+ * print_numbers - prints the numbers, from 0 to 9, followed by a new line
  * Return: 0
  */
-int mul(int a, int b)
+void print_numbers(void)
 {
-	return (a * b);
-}
+	char n = 0;
 
+	while (n <= 9)
+	{
+		_putchar('0' + n);
+		n++;
+	}
+	_putchar('\n');
+}
