@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * str_concat - function that concatenates two strings.
- * @s1: first string, @s2: second string
+ * @s1: first string, 
+ * @s2: second string
  * Return: new memory location or null otherwise
  **/
 char *str_concat(char *s1, char *s2)
