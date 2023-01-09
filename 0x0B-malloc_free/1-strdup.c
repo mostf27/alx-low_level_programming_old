@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strdup - function pointing to new copied memory allocation
- * @str: string to be copied 
+ * @str: string to be copied
  * Return: pointer to new memory location, Null otherwise
  **/
 char *_strdup(char *str)

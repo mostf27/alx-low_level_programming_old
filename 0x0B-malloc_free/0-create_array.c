@@ -2,7 +2,7 @@
 /**
  * *create_array - Create dynamic array and initialize with a character
  * @size: size of the array
- * @c: char to be initialized with. 
+ * @c: char to be initialized with
  * Return: pointer to array or null
  **/
 char *create_array(unsigned int size, char c)
@@ -22,4 +22,3 @@ char *create_array(unsigned int size, char c)
 	}
 	return (A);
 }
-
