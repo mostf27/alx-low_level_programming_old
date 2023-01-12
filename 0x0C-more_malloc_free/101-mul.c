@@ -31,7 +31,7 @@ int _strlen(char *s)
  * @s2: the second big number string
  * Return: the product big number string
  */
-char *big_multiply(char *s1, char *s2)
+char big_multiply(char *s1, char *s2)
 {
 	char *r;
 	int l1, l2, a, b, c, x;
