@@ -1,3 +1,8 @@
+/*
+ * File: 2-key_index.c
+ * Auth: Gedeon Obae Gekonge
+*/
+
 #include "hash_tables.h"
 
 /**
